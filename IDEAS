@@ -1,0 +1,5 @@
+- short links should be deterministic based on target link, i.e. hmac-sha256(link,site-key)[-8:]
+- it will fetch the page and pre-load metadata yet it will allow editing
+ - This can be problematic but fun for v0
+- Redirect instantly or with delay showing something? 
+:
